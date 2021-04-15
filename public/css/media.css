@@ -1,0 +1,112 @@
+@media screen and (min-width: 1440px) {
+    body {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    body {
+        width: auto;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        width: auto;
+    }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    body {
+        width: auto;
+    }
+    #text-packages {
+        padding-left: 50px;
+        padding-top: 0px;
+    }
+    #text-eclosion {
+        padding: 0 0px;
+    }
+    .packages {
+        display: block;
+    }
+    .logo {
+        display: none;
+    }
+    #logo-packages {
+        text-align: center ;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #logo-packages>img {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .menu {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    img {
+        transform: scale(0.7)
+    }
+    .dispo-logo {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #text-packages {
+        padding-top: 20px;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    body {
+        width: auto;
+    }
+    .packages {
+        display: block;
+    }
+    
+    .menu {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    img {
+        transform: scale(0.7)
+    }
+    .logo {
+        display: none;
+    }
+    #logo-packages {
+        text-align: center ;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .dispo-logo {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .menu {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    img {
+        transform: scale(0.7)
+    }
+    .logo {
+        display: none;
+    }
+    #logo-packages {
+        text-align: center ;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .dispo-logo {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
